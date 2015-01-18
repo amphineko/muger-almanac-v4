@@ -1,3 +1,12 @@
+/*
+    MUGer's Almanac / 音游玩家老黄历
+
+    程序文本均非作者提供, 其中出现的品牌与商标之版权归其持有者所属
+    若程序中的文本对您产生不适或侵犯了您的权益等, 请及时与我联络
+
+    Contact me: hello@loopback.moe
+*/
+
 var items = [
     /* Initial */
     { title: '尝试全机种FC', reason: ['你推分将有如神助', '总感觉手感不是很好'] },

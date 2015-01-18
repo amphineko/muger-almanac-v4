@@ -1,0 +1,119 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ECECEC;
+    font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", STXihei, "华文细黑", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+    font-size: 0.75em;
+}
+
+#wrap {
+    margin: 0 auto;
+    max-width: 32em;
+}
+
+/* General cards */
+
+.card {
+    background: white;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    margin: 1.5em auto;
+    width: 100%;
+}
+
+.card .section {
+    border-top: 1px solid #ECECEC;
+}
+
+.card .section:first-child {
+    border-top: none;
+}
+
+/* Header */
+
+h1 {
+    color: #454545;
+    display: block;
+    font-size: 1.8em;
+    font-weight: 900;
+    padding: 1em;
+    text-align: right;
+}
+
+h1 small {
+    vertical-align: 0.6em;
+}
+
+/* Section: Today */
+
+.card#today h2 {
+    color: #555;
+    font-size: 1.3em;
+    font-weight: 300;
+    font-weight: normal;
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.card#today h2:first-child {
+    border-top: none;
+}
+
+.card#today b {
+    color: #7D7EEB;
+    display: inline-block;
+    font-weight: 300;
+    font-weight: normal;
+    margin: 0 3px;
+}
+
+/* Section: Almanac */
+
+.l-item {
+    padding: 1em 2em 0.5em 1.5em;
+}
+
+.l-item img {
+    float: left;
+    height: 4em;
+    margin: 0 1em 0 0;
+    vertical-align: middle;
+}
+
+.l-item h3 {
+    font-size: 1.2em;
+    line-height: 2em;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.l-item p {
+    font-size: 1em;
+    line-height: 2em;
+    margin: 0;
+    vertical-align: middle;
+}
+
+#l-good {
+    border-left: 1.5em solid #99D388;
+    width: 30.5em;
+}
+
+#l-bad {
+    border-left: 1.5em solid #D38888;
+    width: 30.5em;
+}
+
+/* Footer */
+
+#footer p {
+    color: #777;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 1em;
+    text-align: right;
+}

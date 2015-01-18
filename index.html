@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+        <meta name="author" content="椎名奈緒" />
+        <meta name="description" content="使用JavaScript的一个测运势小程序" />
+
+        <link href="style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div id="wrap">
+            <div class="card" id="header">
+                <h1>音游玩家老黄历 <small>v4</small></h1>
+            </div>
+
+            <div class="card" id="today" style="background: #FDFDFD;">
+                <h2 class="section">今天是<span id="date">2015年1月15日</span>, 适合打<b id="game1">jubear</b>和<b id="game2">O2JAM</b></h2>
+                <h2 class="section" style="font-size: 1.1em;">可直接加入书签, 欢迎微博<b>@理饼重工</b>或<b>邮件</b>投稿</h2>
+            </div>
+
+            <div class="card" id="l-good">
+                <!-- Left for Script -->
+            </div>
+
+            <div class="card" id="l-bad">
+                <!-- Left for Script -->
+            </div>
+
+            <div class="card" id="footer">
+                <p>
+                    Naoki Rinmous<br />
+                    最后于2015年01月18日更新数据, 本页黄历根据日期生成<br />
+                    该程序仅为练习作品, 作者不为其产生的结果负责<br />
+                    文本中出现的品牌与商标之版权归其持有者所属<br />
+                    <br />
+                    黄历项由其作者投稿整理形成<br />
+                    若程序中的文本对您产生不适或侵犯了您的权益等, 请及时与我联络
+                </p>
+            </div>
+        </div>
+
+        <script src="init.js"></script>
+        <script>
+            nextScript('dict.js');
+        </script>
+    </body>
+</html>

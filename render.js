@@ -52,6 +52,7 @@ function generateItems(count) {
     for (var i = 1; i <= count; i++) {
         var index = random(seed, i) % items.length;
         ret.push(items[index]);
+        items.splice(index, 1);
     }
 
     return ret;
@@ -62,6 +63,7 @@ function generateGames(count) {
     for (var i = 1; i <= count; i++) {
         var index = random(seed, i) % games.length;
         ret.push(games[index]);
+        games.splice(index, 1);
     }
 
     return ret;

@@ -20,7 +20,7 @@ function createItem(text, reason, imgid) {
     var h3  = document.createElement('h3');
     var p   = document.createElement('p');
 
-    img .setAttribute('src', 'http://static.acfun.mm111.net/dotnet/20130418/umeditor/dialogs/emotion/images/ac/' + imgid + '.gif');
+    img .setAttribute('src', 'http://cdn.aixifan.com/dotnet/20130418/umeditor/dialogs/emotion/images/ac/' + imgid + '.gif');
     h3  .appendChild(document.createTextNode(text));
     p   .appendChild(document.createTextNode(reason));
 
